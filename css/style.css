@@ -1,0 +1,328 @@
+
+/* Global css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+a, a:hover{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/* Global css end */
+
+
+/* Header section css start */
+
+.header-section{
+    width: 100%;
+    background: #F0FFF0;
+    padding: 15px 0px;
+
+}
+.header-section .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.header-section .navbar .logo{
+  flex-basis: 15%; 
+}
+
+.header-section .navbar .logo img{
+    width: 100%;
+    height: auto; 
+  }
+
+.header-section .navbar .nav{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.header-section .navbar .nav ul{
+    margin: 0;
+    padding: 0;
+} 
+.header-section .navbar .nav ul li{
+ list-style-type: none;
+ display: inline-block;
+ margin-right: 30px;
+} 
+
+.header-section .navbar .btn{
+    flex-basis: 15%; 
+} 
+
+.header-section .navbar .btn a{
+background: #21B573;
+padding: 12px 28px;
+border: 1px solid #21B573;
+border-radius: 33px;
+color: white;
+} 
+
+/* Header section css end */
+
+/* banner section css start */
+.banner-section{
+    width: 100%;
+    background: #F0FFF0; 
+}
+.banner-inner{
+display: flex;
+}
+.banner-inner .content{
+    flex-basis: 50%;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.banner-inner .content span{
+color: #FD511A;
+
+}
+
+.banner-inner .content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;  
+    
+}
+.banner-inner .content h1 span{
+    color: #21B573;
+    
+}
+.banner-inner .content p{
+margin-top: 20px;
+    line-height: 36px; 
+}
+.banner-inner .content .banner-btn{
+    margin-top: 45px; 
+}
+
+
+.banner-inner .content .banner-btn a{
+    background: #21B573;
+    padding: 12px 36px;
+    border: 1px solid #000;
+    border-radius: 33px;
+    color: white;
+    
+}
+
+.banner-inner .img-part{
+    flex-basis: 50%;
+
+}
+
+.banner-inner .img-part img{
+    width: 100%;
+    height: auto;
+
+
+}
+.feature{
+width: 100%;
+padding: 50px 0px;
+
+}
+
+.feature .feature-inner{
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+color: #F8FFFB;
+
+    
+}
+
+.feature .feature-inner .f-box {
+	border-radius: 10px;
+	padding: 50px;
+    transition: 0.3s;
+
+}
+
+.feature .feature-inner .f-box:hover {
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    transition: 0.3s;
+}
+
+ 
+.feature .feature-inner .f-box img{
+    width: 66px;
+    height: 85px;   
+}
+.feature .feature-inner .f-box h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+    
+}
+.feature .feature-inner .f-box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #585859;
+}
+
+
+/* banner section css end */
+
+/* Course section css code start */
+.courses-section{
+width: 100%;
+padding: 50px 0px;
+}
+
+.courses-inner{
+display: flex;
+justify-content: space-evenly;
+}
+
+.c-card{
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 18px;
+    padding: 25px;
+    margin: 0px 10px;
+}
+
+.c-card .c-btn {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.c-card .c-btn a{
+    background: #21B573;
+    padding: 12px 36px;
+    border: 1px solid #000;
+    border-radius: 33px;
+    color: white;   
+}
+
+.c-card img{
+    width: 331px;
+    height: 234px;
+}
+
+.c-footer{
+display: flex;
+}
+
+.c-footer .left{
+margin-right: 50px;
+       
+}
+
+.c-footer .left img{
+width: 24px;
+height: 24px;
+vertical-align: middle;
+}
+   
+.c-footer .right img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.title {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+/* Course section css code end */
+
+
+/* testimonial section css code start */
+.testimonial{
+    width: 100%;
+    padding: 50px 0px; 
+}
+
+.testimonial .man-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
+}
+
+.testimonial .man-card .left img{
+    width: 120px;
+    height: 120px;
+    margin-right: 50px;
+    
+}
+
+.testimonial .man-card .right p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    
+    
+}
+
+/* testimonial section css code end */
+
+/* footer section css code start */
+
+.footer-setion{
+    padding:50px 0px;
+    background: #282531;
+    width: 1440px;
+    height: 369px;
+    margin: auto;
+    
+}
+
+.footer-setion .v-card{
+display: flex;
+justify-content: space-evenly;
+margin-top: 50px;
+
+}
+
+.footer-setion .v-card .left h2{
+color: #FFFFFF;
+    
+}
+
+.footer-setion .v-card .right{
+color: #FFFFFF;
+display: flex;
+            
+}
+
+.footer-setion .v-card .right .first ul{
+list-style-type: none;
+margin-right: 40px;
+}
+.footer-setion .v-card .right .second ul{
+list-style-type: none;
+margin-right: 40px;
+}
+
+.footer-setion .v-card .right .third ul{
+list-style-type: none;
+}
+.footer-setion .title{
+    color: #CDCDCD;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 100px;
+
+
+}
+
+
+
+/* footer section css code end */
